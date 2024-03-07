@@ -14,7 +14,7 @@ vector<int> factorial_of_a_large_number(int n){
             while(carry)
             {vec.push_back(carry%10);
             carry=carry/10;
-                
+            
             }
       }
 reverse(vec.begin(),vec.end());
